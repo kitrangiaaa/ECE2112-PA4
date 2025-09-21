@@ -13,41 +13,41 @@
 
 I used "boards" to store the code to read the Excel file that is uploaded in my folder:
 
-<img width="311" alt="Screenshot 2024-09-19 at 7 11 43 PM" src="https://github.com/user-attachments/assets/d64369e9-3331-4f3b-97ef-73ffca2b203b">
+<img width="294" height="79" alt="Screenshot 2025-09-22 at 4 03 27 AM" src="https://github.com/user-attachments/assets/60d0e7e8-ed22-4686-8b1d-1e22a0a15181" />
 
-<img width="475" alt="Screenshot 2024-09-19 at 7 14 27 PM" src="https://github.com/user-attachments/assets/2bb7ba3b-ee66-43be-a544-a7ef56d8a8d0">
+<img width="430" height="594" alt="Screenshot 2025-09-22 at 4 03 59 AM" src="https://github.com/user-attachments/assets/aad40f64-d715-4b44-a203-9cc8240ffe71" />
 
 ### __a. Filename: Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as Instrumentation and hometown Luzon__
 
 To do this instruction, I used this code: 
 
-<img width="504" alt="Screenshot 2024-09-19 at 7 17 10 PM" src="https://github.com/user-attachments/assets/7d16b160-5116-4437-ba08-0581b54d94a0">
+<img width="509" height="96" alt="Screenshot 2025-09-22 at 4 05 17 AM" src="https://github.com/user-attachments/assets/6eb1d2aa-2d3a-426b-a4b3-781e01a92077" />
 
 <p align="justify"> I used "Instru" to store the code as instructed. I applied ".loc" to locate the students with Track equal to Instrumentation, Hometown equal to Luzon, and Electronics scores greater than 70. I only displayed the Name, GEAS, and Electronics scores above 70.
 
 This is the output of my code:
 
-<img width="232" alt="Screenshot 2024-09-19 at 7 25 37 PM" src="https://github.com/user-attachments/assets/17f6fac8-750f-4437-8b36-a9d59bae6e9d">
+<img width="224" height="116" alt="Screenshot 2025-09-22 at 4 05 32 AM" src="https://github.com/user-attachments/assets/05481064-deef-425e-9f8c-60ab4f970dc4" />
 
 ### __b. Filename: Mindy = [ “Name”, “Track”, “Electronics”, “Average >=55”]; where hometown is constant as Mindanao and gender Female__
 
 I used this code first for this instruction:
 
-<img width="695" alt="Screenshot 2024-09-19 at 7 29 35 PM" src="https://github.com/user-attachments/assets/18277ce1-7030-403f-acfd-aba67282ae03">
+<img width="691" height="56" alt="Screenshot 2025-09-22 at 4 06 09 AM" src="https://github.com/user-attachments/assets/bc1f9134-91f2-4615-a0d0-15b73ccfb06e" />
 
-<img width="470" height="595" alt="Screenshot 2025-09-22 at 3 56 10 AM" src="https://github.com/user-attachments/assets/5067c674-bc55-47e9-bb24-61ed95e3be93" />
+<img width="467" height="597" alt="Screenshot 2025-09-22 at 4 06 42 AM" src="https://github.com/user-attachments/assets/7cef0d0c-7653-4773-99c2-4e0dda96b15c" />
 
 <p align="justify"> This code produces another column for my uploaded Excel file, the Average column. I get the mean of Math, Electronics, GEAS, and Communication using ".mean" and "axis=1" to compute the mean scores by row. I coded this since it is needed for this second instruction.
 
 I, then, used this code:
 
-<img width="568" alt="Screenshot 2024-09-19 at 7 37 32 PM" src="https://github.com/user-attachments/assets/5ef9f4ca-966b-4ed1-9813-12cb36de1ac0">
+<img width="381" height="61" alt="Screenshot 2025-09-22 at 4 07 11 AM" src="https://github.com/user-attachments/assets/d2c282ed-1822-48f0-be25-a246d0261aa1" />
 
 <p align="justify"> I stored the code in Mindy as instructed. I used ".loc" again to locate the students whose Hometowns are equal to Mindanao, whose Gender is equal to female, and whose Average scores are greater or equal to 55. I only displayed the Name, Track, Electronics, and Average.
 
 This is the output of my code for this instruction:
 
-<img width="353" alt="Screenshot 2024-09-19 at 7 43 59 PM" src="https://github.com/user-attachments/assets/c943600a-5f85-4f60-ae98-dbb786c67a8f">
+<img width="237" height="118" alt="Screenshot 2025-09-22 at 4 07 38 AM" src="https://github.com/user-attachments/assets/5f6aa632-1539-492f-90d4-492541800aa5" />
 
 ## __ECE BOARD EXAM PROBLEM 2__
 
@@ -55,7 +55,7 @@ This is the output of my code for this instruction:
 
 I, first, input this code to access the matplot library:
 
-<img width="259" alt="Screenshot 2024-09-19 at 7 53 31 PM" src="https://github.com/user-attachments/assets/5859a152-f063-4c0e-a918-7475568b1307">
+<img width="266" height="42" alt="Screenshot 2025-09-22 at 4 08 07 AM" src="https://github.com/user-attachments/assets/872688ee-b301-4b8d-9c45-76b0497f5389" />
 
 <p align="justify"> I used the following codes to produce the correlation between Track, Gender, and Hometown in the students' average scores:
 
@@ -63,33 +63,33 @@ I, first, input this code to access the matplot library:
 
 ## __First Graph:__
 
-<img width="655" alt="Screenshot 2024-09-19 at 7 55 38 PM" src="https://github.com/user-attachments/assets/c7d04719-58be-46ed-9a64-3128e7d444b2">
+<img width="657" height="150" alt="Screenshot 2025-09-22 at 4 08 34 AM" src="https://github.com/user-attachments/assets/d749abf2-9768-4109-9541-1b7fe115462d" />
 
 <p align="justify"> This code is used to know the graph of average scores of students in each Track they chose. Students who study Microelectronics have the highest average score, and students who study Instrumentation have the lowest average score. I think Microelectronics students have the highest since they focus mainly on electronics.
 
 This is the output graph:
 
-<img width="880" alt="Screenshot 2024-09-19 at 8 08 29 PM" src="https://github.com/user-attachments/assets/f8990d2f-dc23-437e-ab43-41ee86252bdb">
+<img width="861" height="466" alt="Screenshot 2025-09-22 at 4 09 01 AM" src="https://github.com/user-attachments/assets/549a83ea-e139-4642-8275-d40b38ec96d3" />
 
 ## __Second Graph:__
 
-<img width="610" alt="Screenshot 2024-09-19 at 7 56 02 PM" src="https://github.com/user-attachments/assets/02203e85-0c84-419c-9761-ab5f09a40c6e">
+<img width="611" height="147" alt="Screenshot 2025-09-22 at 4 09 23 AM" src="https://github.com/user-attachments/assets/c114d92b-41d2-44c4-81ea-0f61f60ff955" />
 
 <p align="justify"> This code is used to know the graph of students' average scores based on their Gender. Female students got the highest average scores than Male students. Maybe female students got the highest since there are 15 females and 14 males.
 
 This is the output graph:
 
-<img width="859" alt="Screenshot 2024-09-19 at 8 21 21 PM" src="https://github.com/user-attachments/assets/c4d4edfa-8416-4991-96fe-0f000981c775">
+<img width="855" height="474" alt="Screenshot 2025-09-22 at 4 09 45 AM" src="https://github.com/user-attachments/assets/3751ef0e-138c-46b9-8818-0c851713d8cc" />
 
 ## __Third Graph:__
 
-<img width="625" alt="Screenshot 2024-09-19 at 7 56 31 PM" src="https://github.com/user-attachments/assets/575dd73c-2f18-4d23-9d65-a6b06cf07acb">
+<img width="627" height="147" alt="Screenshot 2025-09-22 at 4 10 07 AM" src="https://github.com/user-attachments/assets/82370654-5a16-4c8a-bcd3-be1621d1ce4a" />
 
 <p align="justify"> This code is used to know the graph of average scores of students based on their Hometown. Students who study in Luzon have the highest average score, and students who study in Mindanao have the lowest average score. I think students who study in Luzon have the highest since, most of the time, the board exams are held there, so people in Mindanao need to travel.
 
 This is the output graph:
 
-<img width="858" alt="Screenshot 2024-09-19 at 8 22 18 PM" src="https://github.com/user-attachments/assets/03c40dec-d464-468f-bfff-759fb7a3dce8">
+<img width="853" height="472" alt="Screenshot 2025-09-22 at 4 10 32 AM" src="https://github.com/user-attachments/assets/be77c927-d18c-4b93-ae28-cb1c4bca3bc9" />
 
 ## __MESSAGE__
 
