@@ -35,7 +35,7 @@ I used this code first for this instruction:
 
 <img width="695" alt="Screenshot 2024-09-19 at 7 29 35 PM" src="https://github.com/user-attachments/assets/18277ce1-7030-403f-acfd-aba67282ae03">
 
-<img width="523" alt="Screenshot 2024-09-19 at 7 35 07 PM" src="https://github.com/user-attachments/assets/127e0bb2-158d-41d4-91de-8a9922650e61">
+<img width="470" height="595" alt="Screenshot 2025-09-22 at 3 56 10 AM" src="https://github.com/user-attachments/assets/5067c674-bc55-47e9-bb24-61ed95e3be93" />
 
 <p align="justify"> This code produces another column for my uploaded Excel file, the Average column. I get the mean of Math, Electronics, GEAS, and Communication using ".mean" and "axis=1" to compute the mean scores by row. I coded this since it is needed for this second instruction.
 
