@@ -5,7 +5,7 @@
 
 <p align="justify"> First, I imported pandas as pd to access the pandas library.
 
-<img width="170" height="43" alt="Screenshot 2025-09-22 at 3 47 59 AM" src="https://github.com/user-attachments/assets/af1c8976-cf1d-4f69-9a9b-969aefcb8bf5" />
+<img width="175" height="42" alt="Screenshot 2025-09-22 at 4 02 21 AM" src="https://github.com/user-attachments/assets/405e1756-4c5d-415d-a04f-ba6ecb4edb40" />
 
 ## __ECE BOARD EXAM PROBLEM 1__
 ### __1. Create the following data frames based on the format provided:__
