@@ -11,7 +11,7 @@
 ### __1. Create the following data frames based on the format provided:__
 ### Example: Vis = [“Name”, “Gender”, “Track”, “Math<70”]; hometown is constant as Visayas
 
-I used "boards" to store this code to read the Excel file that is uploaded in my folder:
+I used "boards" to store the code to read the Excel file that is uploaded in my folder:
 
 <img width="311" alt="Screenshot 2024-09-19 at 7 11 43 PM" src="https://github.com/user-attachments/assets/d64369e9-3331-4f3b-97ef-73ffca2b203b">
 
